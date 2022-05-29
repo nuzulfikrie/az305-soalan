@@ -1,6 +1,9 @@
 1 You need to deploy resources to host a stateless web app in an Azure subscription. The solution must meet the following requirements:
+
 • Provide access to the full .NET framework.
+
 • Provide redundancy if an Azure region fails.
+
 • Grant administrators access to the operating system to install custom application dependencies. Solution: You deploy a web app in an Isolated App Service plan. Does this meet the goal?
 
  - [ ] A. Yes
@@ -18,9 +21,13 @@
  - [ ] D. certificates
 
 3 You have an Azure Active Directory (Azure AD) tenant named contoso.com that has a security group named Group'. Group i is configured Tor assigned membership. Group I has 50 members. including 20 guest users. You need To recommend a solution for evaluating the member ship of Group1. The solution must meet the following requirements:
+
 • The evaluation must be repeated automatically every three months
+
 • Every member must be able to report whether they need to be in Group1
+
 • Users who report that they do not need to be in Group 1 must be removed from Group1 automatically
+
 • Users who do not report whether they need to be m Group1 must be removed from Group1 automatically. What should you include in me recommendation?
 
  - [ ] A. implement Azure AU Identity Protection.
@@ -58,7 +65,9 @@
  - [ ] D. Deploy domain controllers for the rd.fabrikam.com forest to virtual networks in Azure.
 
 7 You plan to deploy 10 applications to Azure. The applications will be deployed to two Azure Kubernetes Service (AKS) clusters. Each cluster will be deployed to a separate Azure region. The application deployment must meet the following requirements:
+
 • Ensure that the applications remain available if a single AKS cluster fails.
+
 • Ensure that the connection traffic over the internet is encrypted by using SSL without having to configure SSL on each container. Which service should you include in the recommendation?
 
  - [ ] A. AKS ingress controller
@@ -70,7 +79,9 @@
  - [ ] D. Azure Load Balancer
 
 8 You have an Azure subscription. You need to deploy an Azure Kubernetes Service (AKS) solution that will use Windows Server 2019 nodes. The solution must meet the following requirements:
+
 • Minimize the time it takes to provision compute resources during scale-out operations.
+
 • Support autoscaling of Windows Server containers. Which scaling option should you recommend?
 
  - [ ] A. horizontal pod autoscaler
@@ -104,9 +115,13 @@
  - [ ] D. Azure Database for PostgreSQL
 
 11 Your company, named Contoso, Ltd., implements several Azure logic apps that have HTTP triggers. The logic apps provide access to an on-premises web service. Contoso establishes a partnership with another company named Fabrikam. IncL Fabrikam does not have an existing Azure Active Directory (Azure AD) tenant and uses third-party OAuth 2.0 identity management to authenticate its users. I Developers at Fabrikam plan to use a subset of the logic apps to build applications that will integrate with the on-premises web service of Contoso. You need to design a solution to provide the Fabrikam developers with access to the logic apps. The solution must meet the following requirements:
+
 • Requests to the logic apps from the developers must be limited to lower rates than the requests from the users at Contoso.
+
 • The developers must be able to rely on their existing OAuth 2.0 provider to gain access to the logic apps.
+
 • The solution must NOT require changes to the logic apps.
+
 • The solution must NOT use Azure AD guest accounts. What should you include in the solution?
 
  - [ ] A. Azure AD business-to-business (B2B)
@@ -158,9 +173,13 @@
  - [ ] D. SQL Server 2016 on Azure virtual machines
 
 16 You ate designing a SQL database solution. The solution will include 20 databases that will be 20 GB each and have varying usage patterns. You need to recommend a database platform to host the databases. The solution must meet the following requirements:
+
 • The compute resources allocated to the databases must scale dynamically.
+
 • The solution must meet an SLA of 99.99% uptime.
+
 • The solution must have reserved capacity.
+
 • Compute charges must be minimized. What should you include in the recommendation?
 
  - [ ] A. 20 databases on a Microsoft SQL server that runs on an Azure virtual machine
@@ -214,8 +233,11 @@
  - [ ] B. No
 
 22 You need to deploy resources to host a stateless web app in an Azure subscription. The solution must meet the following requirements:
+
 • Provide access to the full .NET framework.
+
 • Provide redundancy if an Azure region fails.
+
 • Grant administrators access to the operating system to install custom application dependencies. Solution: You deploy an Azure virtual machine to two Azure regions, and you deploy an Azure Application Gateway. Does this meet the goal?
 
  - [ ] A. Yes
@@ -239,8 +261,11 @@
  - [ ] B. No
 
 25 You are designing a microservices architecture that will be hosted in an Azure Kubernetes Service (AKS) cluster. Apps that will consume the microservices will be hosted on Azure virtual machines. The virtual machines and the AKS cluster will reside on the same virtual network. You need to design a solution to expose the microservices to the consumer apps. The solution must meet the following requirements:
+
 • Ingress access to the microservices must be restricted to a single private IP address and protected by using mutual TLS authentication.
+
 • The number of incoming microservice calls must be rate-limited.
+
 • Costs must be minimized. What should you include in the solution?
 
  - [ ] A. Azure API Management Premium tier with virtual network connection
@@ -272,8 +297,11 @@
  - [ ] D. Deploy a load balancer and a virtual machine scale set across two availability zones.
 
 28 You plan to deploy an app that will use an Azure Storage account. You need to deploy the storage account. The solution must meet the following requirements:
+
 • Store the data of multiple users.
+
 • Encrypt each user's data by using a separate key.
+
 • Encrypt all the data in the storage account by using Microsoft keys or customer-managed keys. What should you deploy?
 
  - [ ] A. files in a general purpose v2 storage account.
@@ -285,7 +313,9 @@
  - [ ] D. blobs in a general purpose v2 storage account
 
 29 You have an Azure subscription. You need to recommend a solution to provide developers with the ability to provision Azure virtual machines. The solution must meet the following requirements:
+
 • Only allow the creation of the virtual machines in specific regions.
+
 • Only allow the creation of specific sizes of virtual machines. What should you include in the recommendation?
 
  - [ ] A. Conditional Access policies
@@ -349,8 +379,11 @@
  - [ ] D. Azure AD Connect Health
 
 35 You need to deploy resources to host a stateless web app in an Azure subscription. The solution must meet the following requirements:
+
 • Provide access to the full .NET framework.
+
 • Provide redundancy if an Azure region fails.
+
 • Grant administrators access to the operating system to install custom application dependencies. Solution: You deploy a Azure virtual machine scale set that uses autoscaling. Does this meet the goal?
 
  - [ ] A. Yes
@@ -460,8 +493,11 @@
  - [ ] D. a Recovery Services vault and Windows Server Backup
 
 47 You have an Azure subscription. You need to recommend an Azure Kubernetes service (AKS) solution that will use Linux nodes. The solution must meet the following requirements:
+
 • Minimize the time it takes to provision compute resources during scale-out operations.
+
 • Support autoscaling of Linux containers.
+
 • Minimize administrative effort. Which scaling option should you recommend?
 
  - [ ] A. Virtual Kubetet
